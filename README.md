@@ -5,7 +5,7 @@ A simple client to monitor Cassandra cluster connectivity and experiment configu
     gradle shadowJar
     java -jar build/libs/cassandra-conn-monitor-all.jar
 
-The available parameters are shown in the STDOUT and can be changed using Java system params:
+The available parameters are displayed in the STDOUT and can be changed using Java system params:
 
     java -jar build/libs/cassandra-conn-monitor-all.jar \
       -Dhosts=10.0.0.1,10.0.0.2,10.0.0.3 \
