@@ -11,7 +11,7 @@
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<file>log/cassandra-conn-monitor.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>log/application-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<fileNamePattern>log/cassandra-conn-monitor-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
 
 			<timeBasedFileNamingAndTriggeringPolicy
 				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
